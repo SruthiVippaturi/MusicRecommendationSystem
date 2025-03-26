@@ -18,27 +18,27 @@ Some songs are extremely popular and heavily replayed by many users.
 Songs released in recent years (2005–2010) dominate the dataset.
 
 ## Methods Used
-# Popularity-Based Ranking
+### Popularity-Based Ranking
 Recommended top songs based on global average play count—works for cold-start scenarios but lacks personalization.
 
-# User-User Collaborative Filtering
+### User-User Collaborative Filtering
 Recommended songs based on similar users' preferences. Gave high F1 scores and personalized suggestions.
 
-# Item-Item Collaborative Filtering
+### Item-Item Collaborative Filtering
 Used item-to-item similarity to recommend songs similar to those already listened to by the user.
 
-# Matrix Factorization (SVD)
+### Matrix Factorization (SVD)
 Modeled latent features to make personalized recommendations using Surprise library’s SVD algorithm.
 
-# Hyperparameter Tuning using GridSearchCV
+### Hyperparameter Tuning using GridSearchCV
 Tuned parameters like similarity metric and number of neighbors to improve RMSE and F1 score.
 
 ## How to Run this File 
-# Clone the repository
+### Clone the repository
 ```
 git clone https://github.com/SruthiVippaturi/MusicRecommendationSystem.git
 ```
-# Install dependencies
+### Install dependencies
 ```
 pip install -r requirements.txt
 ```
